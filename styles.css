@@ -8,20 +8,23 @@ body {
   background-image: url("./images/mugs.png");
   background-repeat: repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .page {
   width: 900px;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
 .header {
   background-color: cornsilk;
-  margin: 10px 1.15%;
+  margin: 10px 0;
   padding: 10px;
   border: #fff solid 10px;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .title {
@@ -33,25 +36,28 @@ body {
 
 .synopsis {
   font-style: italic;
-  margin-top: 10px;
+  margin-bottom: 10px;
   color: rgb(87, 92, 92);
 }
 
 .links {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -5px;
 }
 
 .link {
   text-decoration: none;
   color: #fff;
-  float: left;
-  width: 31%;
-  margin: 10px 1.15%;
+  width: 293px;
+  margin: 10px 5px 0 5px;
   height: 200px;
   background-color: #B2D6FF;
-  border: rgb(26, 28, 34) solid 8px;
+  border: rgb(26, 28, 34) solid 5px;
   border-radius: 15px;
   padding: 20px;
+  display: flex;
 }
 
 .link:hover {
@@ -63,16 +69,14 @@ body {
 }
 
 .link-screenshot {
-  float: left;
   width: 60px;
   height: 60px;
-  margin: 0 20px 20px 0;
   background-color: #D6E9FE;
   border-radius: 10px;
+  margin-right: 20px;
 }
 
 .link-description {
   font-size: .9em;
-  margin: 10px;
-  overflow: hidden;
+  margin-top: 10px;
 }
