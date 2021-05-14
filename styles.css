@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #86D6D9;
+    background-image: url("./images/mugs.png");
+    background-repeat: repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,17 +16,25 @@ body {
     overflow: hidden;
 }
 
+.header {
+    background-color: cornsilk;
+    margin: 10px 1.15%;
+    padding: 10px;
+    border: #fff solid 10px;
+    border-radius: 15px;
+}
+
 .title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4em;
     font-weight: bold;
     color: #228C8F;
-    margin: 10px 1.15%;
 }
 
 .synopsis {
     font-style: italic;
-    margin: 10px 1.15%;
+    margin-top: 10px;
+    color: rgb(87, 92, 92);
 }
 
 .links {
@@ -38,8 +47,11 @@ body {
     float: left;
     width: 31%;
     margin: 10px 1.15%;
-    height: 160px;
+    height: 200px;
     background-color: #B2D6FF;
+    border: rgb(26, 28, 34) solid 8px;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .link:hover {
@@ -54,12 +66,9 @@ body {
     float: left;
     width: 60px;
     height: 60px;
-    margin: 25px;
+    margin: 0 20px 20px 0;
     background-color: #D6E9FE;
-}
-
-.link-title {
-    margin-top: 30px;
+    border-radius: 10px;
 }
 
 .link-description {
