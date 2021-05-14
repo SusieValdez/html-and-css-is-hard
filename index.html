@@ -3,33 +3,53 @@
   <head>
     <meta charset='UTF-8'/>
     <title>HTML and CSS is Hard</title>
+    <link rel='stylesheet' href='styles.css'/>
   </head>
   <body>
     <div class='page'>
-      <h1 class='title'>HTML and CSS is Hard</h1>
-      <p class='synopsis'>This project was a way of challenging myself into 
-        learning CSS and HTML. It took some time but I'm pretty happy on how it
-        turned out!</p>
-      <ol class="links">
-        <li>
-          <a href='./01-basic-web-pages/basics.html'>Basic web pages</a>
-        </li>
-        <li>
-          <a href='./02-links-and-images/links.html'>Links and images</a>
-        </li>
-        <li>
-          <a href='./03-hello-css/hello-css.html'>Hello CSS</a>
-        </li>
-        <li>
-          <a href='./04-css-box-model/boxes.html'>CSS box model</a>
-        </li>
-        <li>
-          <a href='./05-css-selectors/selectors.html'>CSS Selectors</a>
-        </li>
-        <li>
-          <a href='./06-floats/floats.html'>Floats</a>
-        </li>
-      </ol>
+      <div class='header'>
+        <h1 class='title'>HTML and CSS is Hard</h1>
+        <p class='synopsis'>This project was a way of challenging myself into 
+          learning CSS and HTML. It took some time but I'm pretty happy on how it
+          turned out!
+        </p>
+      </div>
+      <div class='links'>
+        <a class='link' href='./01-basic-web-pages/basics.html' style="background-color: #519a77;">
+          <img class='link-screenshot' src="./images/01.png"/>
+          <h3 class='link-title'>Basic web pages</h3>
+          <p class='link-description'>Basic HTML and elements exercise</p>
+        </a>
+        <a class='link' href='./02-links-and-images/links.html' style="background-color: #5D9E71;">
+          <img class='link-screenshot' src="./02-links-and-images/images/mochi.gif"/>
+          <h3 class='link-title'>Links and images</h3>
+          <p class='link-description'>Basic HTML links exercise</p>
+        </a>
+        <a class='link' href='./03-hello-css/hello-css.html' style="background-color: #68A16B;">
+          <img class='link-screenshot' src="./images/03.png"/>
+          <h3 class='link-title'>Hello CSS</h3>
+          <p class='link-description'>Basic CSS exercise</p>
+        </a>
+        <a class='link' href='./04-css-box-model/boxes.html' style="background-color: #74A465;">
+          <img class='link-screenshot' src="./images/04.png"/>
+          <h3 class='link-title'>CSS box model</h3>
+          <p class='link-description'>CSS exercise that explains box models</p>
+        </a>
+        <a class='link' href='./05-css-selectors/selectors.html' style="background-color: #7FA75F;">
+          <img class='link-screenshot' src="./images/05.png"/>
+          <h3 class='link-title'>CSS selectors</h3>
+          <p class='link-description'>Exercise on selecting specific HTML elements
+            and styling them accordingly
+          </p>
+        </a>
+        <a class='link' href='./06-floats/floats.html' style="background-color: #a6b46d;">
+          <img class='link-screenshot' src="./images/06.png"/>
+          <h3 class='link-title'>Floats</h3>
+          <p class='link-description'>Exercise to understand design of magazine-
+            styled pages.
+          </p>
+        </a>
+      </div>
     </div>
   </body>
-</html>
+</html>  
