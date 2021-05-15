@@ -1,3 +1,8 @@
+@font-face {
+  font-family: pangolin;
+  src: url('./fonts/Pangolin-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +10,12 @@
 }
 
 body {
-  background-image: url("./images/mugs.png");
+  background: url("./images/mugs.png"), linear-gradient(to right, rgb(226, 81, 81), rgb(243, 189, 88), rgb(245, 245, 100), rgb(90, 241, 148), rgb(159, 90, 238));
   background-repeat: repeat;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: pangolin;
+}
+
+.page-container {
   display: flex;
   justify-content: center;
 }
@@ -20,7 +28,7 @@ body {
   background-color: cornsilk;
   margin: 10px 0;
   padding: 10px;
-  border: #fff solid 10px;
+  box-shadow: rgb(30 30 31 / 50%) 0px 5px 10px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -28,7 +36,6 @@ body {
 }
 
 .title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 4em;
   font-weight: bold;
   color: #228C8F;
@@ -49,12 +56,12 @@ body {
 
 .link {
   text-decoration: none;
-  color: #fff;
+  color: rgb(227, 230, 199);
   width: 293px;
   margin: 10px 5px 0 5px;
   height: 200px;
   background-color: #B2D6FF;
-  border: rgb(26, 28, 34) solid 5px;
+  box-shadow: rgb(30 30 31 / 50%) 0px 5px 10px;
   border-radius: 15px;
   padding: 20px;
   display: flex;
@@ -79,4 +86,29 @@ body {
 .link-description {
   font-size: .9em;
   margin-top: 10px;
+}
+
+@keyframes rotate-clown {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#clown {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#clown:hover {
+  filter: brightness(85%)
+}
+
+#clown:active {
+  filter: brightness(125%)
 }
