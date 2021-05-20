@@ -5,8 +5,8 @@
 }
 
 body {
-  color: #5D6063;
-  background-color: #EAEDF0;
+  color: #5d6063;
+  background-color: #eaedf0;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.3;
@@ -18,8 +18,8 @@ body {
 
 .speaker-form-header {
   text-align: center;
-  background-color: #F6F7F8;
-  border: 1px solid #D6D9DC;
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
   border-radius: 3px;
 
   width: 80%;
@@ -33,8 +33,8 @@ body {
 }
 
 .speaker-form {
-  background-color: #F6F7F8;
-  border: 1px solid #D6D9DC;
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
   border-radius: 3px;
 
   width: 80%;
@@ -50,20 +50,20 @@ body {
   flex-wrap: wrap;
 }
 
-.form-row input[type='text'],
-.form-row input[type='email'] {
-  background-color: #FFFFFF;
-  border: 1px solid #D6D9DC;
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
   border-radius: 3px;
   width: 100%;
   padding: 7px;
   font-size: 14px;
 }
 
-.form-row input[type='text']:invalid,
-.form-row input[type='email']:invalid {
-  border: 1px solid #D55C5F;
-  color: #D55C5F;
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+  border: 1px solid #d55c5f;
+  color: #d55c5f;
   box-shadow: none;
 }
 
@@ -86,12 +86,12 @@ body {
   padding: 0 20px 0 10px;
 }
 
-.legacy-form-row input[type='radio'] {
+.legacy-form-row input[type="radio"] {
   margin-top: 2px;
 }
 
 .legacy-form-row .radio-label,
-.legacy-form-row input[type='radio'] {
+.legacy-form-row input[type="radio"] {
   float: left;
 }
 
@@ -106,7 +106,7 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 14px;
 
-  border: 1px solid #D6D9DC;
+  border: 1px solid #d6d9dc;
   border-radius: 3px;
 
   min-height: 200px;
@@ -129,8 +129,8 @@ body {
   font-size: 16px;
   font-weight: bold;
 
-  color: #FFFFFF;
-  background-color: #5995DA;
+  color: #ffffff;
+  background-color: #5995da;
 
   border: none;
   border-radius: 3px;
@@ -140,15 +140,14 @@ body {
 }
 
 .form-row button:hover {
-  background-color: #76AEED;
+  background-color: #76aeed;
 }
 
 .form-row button:active {
-  background-color: #407FC7;
+  background-color: #407fc7;
 }
 
 @media only screen and (min-width: 700px) {
-
   .speaker-form-header,
   .speaker-form {
     width: 600px;
@@ -160,10 +159,10 @@ body {
     margin-bottom: 20px;
   }
 
-  .form-row input[type='text'] {
+  .form-row input[type="text"] {
     width: 250px;
     height: initial;
-    background-color: #FFF;
+    background-color: #fff;
   }
 
   .form-row label {
@@ -173,13 +172,13 @@ body {
     padding-right: 20px;
   }
 
-  .form-row input[type='text'],
-  .form-row input[type='email'] {
-    background-color: #FFFFFF;
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #ffffff;
   }
 
-  .form-row input[type='text'],
-  .form-row input[type='email'],
+  .form-row input[type="text"],
+  .form-row input[type="email"],
   .form-row select,
   .form-row textarea {
     width: 250px;

@@ -12,31 +12,31 @@
 
 .container {
   overflow: hidden;
-  background-color: #EAEDF0;
+  background-color: #eaedf0;
 }
 
 .content {
   float: left;
   width: 650px;
   height: 500px;
-  background-color: #F5CF8E;
+  background-color: #f5cf8e;
 }
 
 .menu {
   height: 100px;
-  background-color: #B2D6FF;
+  background-color: #b2d6ff;
 }
 
 .sidebar {
   float: left;
   height: 300px;
   width: 200px;
-  background-color: #F09A9D;
+  background-color: #f09a9d;
 }
 
 .content {
   height: 500px;
-  background-color: #F5CF8E;
+  background-color: #f5cf8e;
   padding: 20px;
 }
 
@@ -49,12 +49,12 @@
 }
 
 .p {
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .footer {
   overflow: hidden;
-  background-color: #D6E9FE;
+  background-color: #d6e9fe;
 }
 
 .footer-item {
@@ -62,7 +62,7 @@
   width: 31%;
   margin: 20px 1.15%;
   height: 160px;
-  background-color: #B2D6FF;
+  background-color: #b2d6ff;
 }
 
 .avatar {
@@ -71,7 +71,7 @@
   height: 60px;
   margin: 25px;
   border-radius: 40px;
-  background-color: #D6E9FE;
+  background-color: #d6e9fe;
 }
 
 .username {

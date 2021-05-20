@@ -8,19 +8,19 @@
 }
 
 #button-2 {
-  background-color: #D55C5F;
+  background-color: #d55c5f;
 }
 
 .button:link,
 .button:visited {
   display: block;
   text-decoration: none;
-  color: #FFF;
-  background-color: #5995DA;
+  color: #fff;
+  background-color: #5995da;
   font-weight: bold;
   padding: 20px;
   text-align: center;
-  border: 2px solid #5D6063;
+  border: 2px solid #5d6063;
   border-radius: 5px;
 
   width: 200px;
@@ -29,34 +29,34 @@
 
 .button:hover,
 .button:visited:hover {
-  color: #FFF;
-  background-color: #76AEED;
+  color: #fff;
+  background-color: #76aeed;
 }
 
 .button:active,
 .button:visited:active {
   color: #fff;
-  background-color: #5995DA;
+  background-color: #5995da;
 }
 
 .call-to-action:link,
 .call-to-action:visited {
   font-style: italic;
-  background-color: #EEB75A;
+  background-color: #eeb75a;
 }
 
 .call-to-action:hover,
 .call-to-action:visited:hover {
-  background-color: #F5CF8E;
+  background-color: #f5cf8e;
 }
 
 .call-to-action:active,
 .call-to-action:visited:active {
-  background-color: #EEB75A;
+  background-color: #eeb75a;
 }
 
 #button-2 {
-  color: #5D6063;
+  color: #5d6063;
 }
 
 .page {
@@ -65,7 +65,7 @@
 }
 
 .im-red {
-  color: red
+  color: red;
 }
 
 .im-bold {
@@ -111,7 +111,7 @@ p:last-of-type {
   margin-bottom: 50px;
 }
 
-.page>p:first-of-type {
-  color: #7E8184;
+.page > p:first-of-type {
+  color: #7e8184;
   font-style: italic;
 }
