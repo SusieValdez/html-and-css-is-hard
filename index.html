@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <title>HTML and CSS is Hard</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -197,7 +200,7 @@
     <audio id="audio" src="./sounds/circus-theme-song.mp3"></audio>
     <script>
       const audioEl = document.getElementById("audio");
-      audioEl.volume = 0.01;
+      audioEl.volume = 0.1;
       const clownEl = document.getElementById("clown");
       clownEl.onclick = () => {
         audioEl.play();

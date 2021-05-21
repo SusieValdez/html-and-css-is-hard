@@ -120,3 +120,27 @@ body {
 #clown:active {
   filter: brightness(125%);
 }
+
+@media only screen and (max-width: 400px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 3.2em;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 400px;
+  }
+}
